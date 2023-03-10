@@ -4,15 +4,21 @@
 }
 
 .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     grid-column: 2;
     padding-bottom: 50px;
 }
 
-.post {
-    font-family: "Source Code Pro", Lato, sans-serif
+.post-text {
+    font-family: "Source Code Pro", Lato, sans-serif;
+    grid-column: 1
 }
 
-.post-header {
-    text-decoration: none;
+.post-text-header {
     color: black;
+}
+
+.post-picture {
+    grid-column: 2;
 }
