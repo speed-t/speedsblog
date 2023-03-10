@@ -1,0 +1,18 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.content {
+    grid-column: 2;
+    padding-bottom: 50px;
+}
+
+.post {
+    font-family: "Source Code Pro", Lato, sans-serif
+}
+
+.post-header {
+    text-decoration: none;
+    color: black;
+}
