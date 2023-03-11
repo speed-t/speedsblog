@@ -1,24 +1,15 @@
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+body {
+    background-color: rgb(253, 246, 227);
 }
 
 .content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column: 2;
+    display: flex;
     padding-bottom: 50px;
 }
 
-.post-text {
-    font-family: "Source Code Pro", Lato, sans-serif;
-    grid-column: 1
+.picture {
 }
 
-.post-text-header {
-    color: black;
-}
+#upper_right_header {
 
-.post-picture {
-    grid-column: 2;
 }
